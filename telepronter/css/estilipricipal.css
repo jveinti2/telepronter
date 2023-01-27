@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* aquie el buscador  */
+.buscardor {
+    width: 500px;
+    text-align: left;
+    padding: 12px 0 0 0;
+
+
+}
+
+/* aqui la etiqueta de adentro */
+.adentro {
+    border: 2px solid #002060;
+    color: #002060;
+    padding: 0 15px 15px 15px;
+    font-size: 11px;
+    height: 35px;
+    text-align: left;
+
+}
+
+/* parte izquierda */
+.cont1 {
+
+    height: 100vh;
+    width: 50%;
+    /* background: blue; */
+
+}
+
+/* parte dercha */
+.cont2 {
+    background-size: 16;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    /* background: blue; */
+
+}
+
+/* unir las pantallas */
+.pantalla {
+    display: flex;
+    position: relative;
+
+}
+
+/* parrafos  */
+
+.pclass1 {
+    width: 100%;
+    margin: 5px 0 10px 20px;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #002060;
+    display: grid;
+    place-items: center;
+
+}
+
+.pclass {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #002060;
+    display: grid;
+    place-items: center;
+}
+
+
+/* todas las etiquetas de llamado a la bd */
+.conten1 {
+    height: 70px;
+    /* max-width: 500px;
+    margin: 0px 30px 5px 5px;
+    border: 2px solid #002060;
+    color: #002060;
+
+    text-align: center; */
+    width: 100%;
+    /* max-width: 500px;*/
+    /* height: 145px; */
+    /* margin: 0px 30px 5px 5px; */
+    border: 2px solid #002060;
+    color: #002060;
+    border-radius: 5px;
+    outline: none;
+}
+
+.conten2 {
+    width: 100%;
+    /* max-width: 500px;*/
+    height: 150px;
+    /* margin: 0px 30px 5px 5px; */
+    border: 2px solid #002060;
+    color: #002060;
+    border-radius: 5px;
+    outline: none;
+}
+
+.conten3 {
+    width: 100%;
+    min-height: 145px;
+    color: #002060;
+    outline: none;
+}
+
+.container-message {
+    border: 2px solid #002060;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* botones */
+.boton1 {
+    font-weight: bold;
+
+    /* height: 50px;
+    padding: 2px 15px 6px 15px;
+    margin: 2px 15px 0 400px ;
+    background-color: #002060;
+    border: 3px solid  #00b0f0;
+    color: #ffffff;
+    width: 110px;
+    text-align: center;
+    border-radius: 8px;*/
+    height: 50px;
+    padding: 5px 15px 6px 15px;
+    margin: 0 2px 0 100px;
+    background-color: #002060;
+    border: 3px solid #00b0f0;
+    color: #ffffff;
+    width: 110px;
+    text-align: center;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+}
+
+.boton2 {
+    background-color: red;
+    width: 85%;
+    margin: 0 auto;
+    padding: 6px 15px 6px 15px;
+    background-color: #002060;
+    border: 3px solid #00b0f0;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* el espacio de la lista  */
+.espace {
+    margin: 0 0 0 55px;
+    padding: 0;
+    text-align: left;
+    width: 20px;
+    height: 20px;
+
+}
+
+.espace2 {
+    text-align: left !important;
+    margin: 0 0 3px 25px;
+    height: 20px;
+    color: blue;
+
+
+}
+
+span {
+    margin: 5px 0 5px 55px;
+    padding: 5px;
+    text-align: center;
+    font-size: 11px;
+    color: #002060;
+
+}
+
+.fija {
+    position: absolute;
+    bottom: 0px;
+    right: 85px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.fija2 {
+    border: 2px solid #002060;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #002060;
+    border: 2px solid #00b0f0;
+    font-size: 11px;
+    padding: 1px;
+
+}
+
+.pantalla2 {
+    width: 100%;
+    height: 1000px;
+
+}
+
+.hide {
+    display: none;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #002060;
+    color: white;
+    text-align: center;
+}
+
+.arriba {
+    display: none;
+    padding: 0px;
+    background: #02495900;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}

@@ -1,0 +1,61 @@
+
+body{
+    
+        background-color: #F8F8FF;        
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    } 
+   
+
+.banner-principal {
+    background-image: url(../img/banner.png);
+    height: 90px;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+} 
+
+td{
+    text-align: left;
+    font-size:11px;
+}
+
+table{
+    background-color: rgba(192, 201, 192, 0.212);
+    width: 98%;
+    border: #000000 1px solid;
+    
+   
+
+}
+th{
+    text-align: center;
+    border: 1px solid #000000;
+}
+td{
+         border: 1px solid black;
+         padding: 10px;
+        border: 1px solid  #000000 ;
+
+}
+td{
+  background-color: #F0F8FF;
+    
+}
+
+tr:nth-child(even) {
+    background-color: rgba(126, 233, 192, 0.712);
+    
+}
+
+tr:hover{
+    background-color: #60acdf;
+}
+th{
+border: #2e0077  2px;
+text-justify: auto;
+
+     
+}
+
